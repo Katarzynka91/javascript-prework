@@ -12,6 +12,8 @@ function getMoveName(argMoveId){
   } if (argMoveId == 3){
     return 'nożyce'; 
   }
+}
+
 
  
 /* if(randomNumber == 1){
@@ -62,6 +64,11 @@ function displayResult(argComputerMove, argPlayerMove){
   }
   
 }
+
+function displayResult (computerMove,PlayerMove)
+
+console.log(1,2)
+
 
 
 
