@@ -65,9 +65,9 @@ function displayResult(argComputerMove, argPlayerMove){
   
 }
 
-function displayResult (computerMove,PlayerMove)
+function displayResult (computerMove,playerMove)
 
-console.log(1,2)
+
 
 
 
