@@ -1,6 +1,6 @@
-function playGame(playerInput) {
+function playGame(playerInput,randomNumber) {
 
-  clearMessages()
+  clearMessages(
 
   let playerMove = getMoveName (playerInput);
 
@@ -85,10 +85,10 @@ document.getElementById('play-scissors').addEventListener('click', function(){
   playGame(3);
 });
 
-
+  )
 }
 
-playGame(playerInput)
+playGame(playerInput,randomNumber)
 
 
 
