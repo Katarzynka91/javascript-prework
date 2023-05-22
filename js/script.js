@@ -1,4 +1,8 @@
-function playGame(playerInput).clearMessages() {
+function playGame(playerInput) {
+
+  clearMessages()
+
+  let playerMove = getMoveName (playerInput);
 
 let randomNumber = Math.floor(Math.random() * 3 + 1);
 
@@ -32,7 +36,7 @@ printMessage('Mój ruch to: ' + computerMove);
 
 console.log('Gracz wpisał: ' + playerInput);
 
-let playerMove = getMoveName (playerInput);
+
 
 /* if(playerInput == '1'){
   playerMove = 'kamień';
@@ -66,22 +70,28 @@ function displayResult(argComputerMove, argPlayerMove){
   
 }
 
-function displayResult (argComputerMove,argPlayerMove)
+displayResult (ComputerMove,PlayerMove)
 
 
 document.getElementById('play-rock').addEventListener('click', function(){
-  playGame('Guzik został kliknięty');
+  playGame(1);
 });
 
 document.getElementById('play-paper').addEventListener('click', function(){
-  playGame('Guzik został kliknięty');
+  playGame(2);
 });
 
 document.getElementById('play-scissors').addEventListener('click', function(){
-  playGame('Guzik został kliknięty');
+  playGame(3);
 });
 
+
 }
+
+playGame(playerInput)
+
+
+
 
 
 
